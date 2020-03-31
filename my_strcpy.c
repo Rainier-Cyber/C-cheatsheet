@@ -19,6 +19,7 @@ char * str_copy( char *src, char *dest ){
       dest++;  // See above for pointer math
       index++;
    }
+   *dest = '\0';
    return ptr;
 }
 
